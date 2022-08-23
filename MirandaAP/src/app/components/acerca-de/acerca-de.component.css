@@ -1,0 +1,40 @@
+.row{padding: 20px;}
+div{background-color: blueviolet;
+    text-align: center;}
+
+
+/* Estilo foto perfil*/
+@media(min-width: 576px){
+    #foto-perfil {
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 2px 2px 2px black;
+        border-color: black;
+        border-width: 10px;
+        left: 7%;
+        top: 400px;
+     }
+}
+@media(max-width: 575px){
+    #foto-perfil {
+        position: absolute;
+        width: 30%;
+        border-radius: 100%;
+        box-shadow: 2px 2px 1px black;
+        top: 350px;
+        left: 35%;
+        
+     }
+}
+
+/*Nombre y apellido*/
+#nombre{font-weight: bold;
+         margin-top: 20%;
+         margin-left: 5%; 
+        }
+#apellido {font-weight: bold;
+         margin-top: 4%;
+         margin-left: 5%; }
+.cargo{ margin-top: 4%;
+    margin-left: 5%; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
