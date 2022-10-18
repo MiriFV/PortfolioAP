@@ -5,14 +5,14 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.7.4</version>
+		<version>2.6.12</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.portfolio</groupId>
-	<artifactId>mirifv</artifactId>
+	<groupId>com.portfoliomfv</groupId>
+	<artifactId>mfv</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>mirifv</name>
-	<description>Portfolio de Miranda Frias para Argentina Programa</description>
+	<name>mfv</name>
+	<description>Portfolio Miranda frias</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
@@ -28,6 +28,10 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web-services</artifactId>
 		</dependency>
 
 		<dependency>

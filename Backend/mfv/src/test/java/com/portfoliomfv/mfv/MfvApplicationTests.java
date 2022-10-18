@@ -1,10 +1,10 @@
-package com.portfolio.mirifv;
+package com.portfoliomfv.mfv;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MirifvApplicationTests {
+class MfvApplicationTests {
 
 	@Test
 	void contextLoads() {
